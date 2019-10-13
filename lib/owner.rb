@@ -70,10 +70,12 @@ class Owner
   end
   
   def sell_pets
+    # can sell all its pets, which makes them nervous
     [self.cats, self.dogs].flatten.each do |pet|
       pet.mood = "nervous"
       pet.owner = nil
     end
+    # can sell all its pets, which leaves them without an owner
     self.cats = []
     self.dogs = []
   end
