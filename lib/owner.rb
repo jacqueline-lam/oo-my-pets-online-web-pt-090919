@@ -82,7 +82,7 @@ class Owner
   
   # Can list off its pets 
   def list_pets
-    "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
+    puts "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
   end
 end
 
