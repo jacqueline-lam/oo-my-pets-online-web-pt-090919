@@ -80,6 +80,8 @@ class Owner
     self.dogs = []
   end
   
+  def list_pets
     
+  end
 end
 
